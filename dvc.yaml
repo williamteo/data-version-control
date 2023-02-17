@@ -21,4 +21,4 @@ stages:
     - src/evaluate.py
     metrics:
     - metrics/accuracy.json:
-        cache: true
+        cache: false
